@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gallery | Droplet.</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+
+    body{
+        font-family: serif;
+        background-color: #F8F3E9;
+        color: #49352B;
+    }
+
+  
+
+     nav{
+        background-color: #49352B;
+
+    }
+    .nav-item:hover{
+        border-radius: 10px;
+        width: 100px;
+        background-color:#f8f3e973;
+        text-align: center;
+    }
+
+   
+    .page-header{
+        background-color: #71534387;
+        text-align: center;
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+    }
+
+    
+    .gallery-card{
+        background-color: #49352b87;
+        border: none;
+        border-radius: 15px;
+        padding: 12px;
+        height: 100%;
+    }
+    .gallery-card img{
+        height: 260px;
+        object-fit: cover;
+        border-radius: 12px;
+        transition: transform 0.3s;
+    }
+    .gallery-card img:hover{
+        transform: scale(1.05);
+    }
+    .caption{
+        background-color: #F8F3E9;
+        border-radius: 12px;
+        padding: 6px;
+        margin: 12px 0 0 0;
+        text-align: center;
+    }
+
+    .dark-section{
+        background-color: #49352B;
+        color: #F8F3E9;
+    }
+
+</style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="aboutus.html">Droplet.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About us</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact us</a>
+        </li>   
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<header class="page-header">
+  <div class="container">
+    <h4>Moments at Droplet</h4>
+    <h1 class="display-4">Our Gallery</h1>
+    <h5>A little peek at our cups, corners and calm.</h5>
+  </div>
+</header>
+
+<main class="container pb-5">
+  <div class="row g-4">
+
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card gallery-card">
+        <img src="gal3.jpg" class="img-fluid w-100" alt="Droplet gallery picture 1">
+        <p class="caption">Warm cups</p>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card gallery-card">
+        <img src="gal4.jpg" class="img-fluid w-100" alt="Droplet gallery picture 2">
+        <p class="caption">Slow mornings</p>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card gallery-card">
+        <img src="gal5.jpg" class="img-fluid w-100" alt="Droplet gallery picture 3">
+        <p class="caption">Fresh bakes</p>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card gallery-card">
+        <img src="gal6.jpg" class="img-fluid w-100" alt="Droplet gallery picture 4">
+        <p class="caption">One drop at a time</p>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card gallery-card">
+        <img src="gal3.jpg" class="img-fluid w-100" alt="Droplet gallery picture 5">
+        <p class="caption">Cozy corners</p>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card gallery-card">
+        <img src="stud.jpg" class="img-fluid w-100" alt="Droplet gallery picture 6">
+        <p class="caption">Good company</p>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="dark-section text-center py-4">
+  <p class="mb-0 small">&copy;2026 Droplet Cafe. Made with coffee.</p>
+</footer>
+
+
+
+</body>
+</html>
